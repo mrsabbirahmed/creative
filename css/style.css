@@ -1,0 +1,274 @@
+/* common css style part start  */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* common css style part end  */
+/* header part css start */
+#header {
+    padding: 15px 0;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 23px;
+}
+
+.menu ul li a {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    transform: .04s;
+}
+
+.menu ul li a:hover {
+    color: #5956E8;
+
+}
+
+.headerBtn button {
+    padding: 13px 24px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    transition: all linear .5s;
+}
+
+.headerBtn button:hover {
+    background-color: #5956E8;
+    color: white;
+}
+
+/* header part css end */
+/* banner section css start */
+#bannerPart {
+    background-color: #5956E8;
+}
+
+.bannerFlex {
+    display: flex;
+    justify-content: space-between
+}
+
+.bannerContant h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    line-height: 80px;
+    width: 501px;
+    margin-top: 250px;
+}
+
+.bannerContant p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 27px;
+    width: 542px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.bannerBtn button {
+    padding: 13px 22px;
+    background-color: #5956E8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 239px;
+    transition: all linear .5s;
+}
+
+.bannerBtn button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bannerImage img {
+    margin-top: 184px;
+    margin-bottom: 184px;
+}
+
+/* banner section css start */
+/* services section css start */
+.services {
+    text-align: center;
+    width: 542px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.services h4 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 600;
+}
+
+.services p {
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba (24, 24, 24, 0.7);
+}
+
+.cardFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.serviceCard {
+    padding: 50px 0;
+}
+
+.card {
+    border: 1px solid #E3E3E3;
+    padding: 63px 48px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card:hover .cardImg svg,
+.card .cardImg svg:hover {
+    fill: #5956E8;
+    stroke: white;
+}
+
+.card h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    opacity: 0.7;
+    width: 247px;
+}
+
+/* services section css end */
+
+/* portfolio section css start */
+.protfolioHeader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolioContent h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.portfolioContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    opacity: 0.7;
+    width: 542px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.protfoliobanner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* portfolio section css end */
+
+/* team section css start */
+#team{
+    padding: 100px 0 142px;
+}
+.team_Content{
+    text-align: center;
+}
+.team_Content h4{
+    font-size: 40px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 600;
+}
+.team_Content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    opacity: 0.7;
+    width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.team_banner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.team-memberImg {
+    position: relative;
+}
+.team-memberName{
+    position: absolute;
+    text-align: center;
+    bottom: 34px;
+    left: 118px;
+}
+.team-memberName span{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 149px;
+}
+.team-memberName p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 27px;
+}
+/* team section css end */
+
+/* portfolio section css start */
+/* portfolio section css end */
